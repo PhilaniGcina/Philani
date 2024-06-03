@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Manana Philani Portfolio </title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaquarie.css">
+
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>          
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+          </div>
+          <div class="Menu-links">
+                <ul>
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>  
+                </ul>       
+          </div>
+        </div>
+    </nav>
+
+    <section id="Profile">
+        <div class="Section_pic_container">
+            <img src="./Assets/Profile_pic.jpg" 
+             alt="Philani Manana profile pic"
+             class="profile_pic"
+             />
+        </div>
+        <div class="Section_text">
+        <p class="Section_text_p1">Hello i'm</p>
+        <h2 Class="title">Philani Manana</h2>
+        <p class="Section_text_p2">Frontend Developer</p>
+        <div class="btn-container">
+            <button class="btn-color-2" onclick= "window.open('./assets/Philani_Resume.pdf')">
+              Download Resume
+            </button>  
+            <button class="btn-color-1" onclick= "location.href='./#Contact'">
+              Contact Info
+            </button>     
+        </div>
+        <div id="Social_container">
+            <img src="./Assets/linkedin_black_logo_icon.png" alt="My LinkedIn Profile" class ="icon" 
+             onclick="location.href='https://www.linkedin.com/in/philani-manana-a18653241'" target="_blank"/>
+            <img src="./Assets/facebook_icon.png" alt="My facebook Profile"  class ="icon"
+             onclick="location.href='https://www.facebook.com/philanie.manana.7'" target="_blank"/>
+            <img src="./Assets/github_logo_icon.png"  alt="My github Profile" class ="icon" onclick="location.href='https://github.com/PhilaniGcina'" target="_blank"/>
+        </div>
+    </section>
+
+    <section id="About">
+        <p class="Section_text_p1">Get to Know More</p>
+        <h2 class="title"> About Me</h2>
+        <div class="Section_container">
+            <div class="Section_pic_container">
+                <img src="./Assets/About_pic.jpg" 
+                 alt="Profile picture" 
+                 class="About_pic"
+                />
+            </div>
+            <div class="About_details_container">
+                <div class="About_container">
+                    <div class="details_container">
+                        <img src="./Assets/experience-logo_icon.png" 
+                         alt="experience-logo_icon"
+                         class="icon"
+                         />
+                         <h3>Experience</h3>
+                         <p>0 - 1 year <br /> Frontend Development</p>
+                    </div>
+                    <div class="details_container">
+                        <img src="./Assets/education_book_icon.png" 
+                         alt="education_book_icon"
+                         class="icon"
+                         />
+                         <h3>Education</h3>
+                         <p> DURBAN UNIVERSITY OF TECHNOLOGY</p>
+                         <p> Degree of Bachelor of information and communication Technology</p>
+                    </div>
+                </div>
+                <div class="text_container">
+                   <p> I am Philani Manana who is 23 years old. I stay in Durban and I am 
+                    willing to relocate if an opportunity come. I studied in Durban University 
+                    of Technology where I graduated in July 2022 with a Degree of 
+                    Information and Communication Technology (ICT).<br>
+                    I majored with software engineering that where I fell in-love with 
+                    software development and I am currently seeking for an 
+                    Internship/leanership which can help me to grow and sharpen my skills 
+                    in ICT.<br>
+                    I am a self-motivated person who is passionate about ICT and I am 
+                    always willing to learn more technologies and apply my skills.  
+                   </p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/down-arrow_icon.png"
+         alt="down-arrow_icon"
+         class="icon_arrow"
+         onclick="location.href='./#Experience'"
+        />
+    </section>
+
+    <section id="Experience">
+        <p class="Section_text_p1"> Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="Experience_details_container">
+            <div class="About_container">
+                <div class="details_container">
+                    <h2 class="Experience_subtitle">Frontend Development</h2>
+                    <div class="article_container">
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+
+                     </article>
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+
+                     </article>
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+
+                     </article>
+                    </div>
+                </div>
+            <div class="details_container">
+                    <h2 class="Experience_subtitle">Backend Development</h2>
+                    <div class="article_container">
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+
+                     </article>
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>Python</h3>
+                            <p>Basic</p>
+                        </div>
+                     </article>
+
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Basic</p>
+                        </div>
+                     </article>
+                     <article>
+                        <img src="./Assets/done_tick_icon.png" 
+                           alt="Experience_icon"
+                           class="icon"
+                        />
+                        <div>
+                            <h3>Git & Github</h3>
+                            <p>Basic</p>
+                        </div>
+                     </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/down-arrow_icon.png"
+         alt="down-arrow_icon"
+         class="icon_arrow"
+         onclick="location.href='./#Project'"
+        />
+    </section>
+
+    <section id="Project">
+        <p class="Section_text_p1">Browse My Recent Project</p>
+        <h1 class="title">Project</h1>
+        <div class="Experience_details_container">
+            <div class="About_container">
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="./Assets/Project 1_img.jpeg" 
+                          alt="prject 1"
+                          class="project_img"
+                        />
+                    </div>
+                    <h2 class="Experience_subtitle Project_title">Calculator-Project</h2>
+                    <div class="btn-container">
+                        <button class="btn-color-2 project_btn" 
+                            onclick="location.href='https://github.com/PhilaniGcina/Calculator-Project'" target="_blank">
+                            GitHub
+                        </button>
+                        <button class="btn-color-1 project_btn" 
+                            onclick="location.href='https://github.com/PhilaniGcina/Calculator-Project'" target="_blank">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="./Assets/image12.jpg" 
+                            alt="prject 2"
+                            class="project_img"
+                        />
+                    </div>
+                    <h2 class="Experience_subtitle Project_title">Restaurant-Menu</h2>
+                    <div class="btn-container">
+                        <button class="btn-color-2 project_btn" 
+                            onclick="location.href='https://github.com/PhilaniGcina/Restaurent-Menu-project'">
+                            GitHub
+                        </button>
+                        <button class="btn-color-1 project_btn" 
+                            onclick="location.href='https://github.com/PhilaniGcina/Restaurent-Menu-project'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="./Assets/To_do_list.jpeg" 
+                            alt="prject 3"
+                            class="project_img"
+                        />
+                    </div>
+                    <h2 class="Experience_subtitle Project_title">To Do List</h2>
+                    <div class="btn-container">
+                        <button class="btn-color-2 project_btn" 
+                            onclick="location.href='https://github.com/PhilaniGcina/To-Do-List'">
+                            GitHub
+                        </button>
+                        <button class="btn-color-1 project_btn" 
+                            onclick="location.href='https://github.com/PhilaniGcina/To-Do-List'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <img src="./Assets/down-arrow_icon.png"
+         alt="down-arrow_icon"
+         class="icon_arrow"
+         onclick="location.href='./#Contact'"
+        />
+    </section>
+
+    <section id="Contact">
+        <p class="Section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="Contact_info_upper_container">
+            <div class="Contact_info_container">
+                <img src="./Assets/email_icon.png"
+                 alt="email_icon"
+                 class="icon contact_icon"
+                />
+                <p a href="malito:example@gmail.com">philanimanana34@gmail.com</p>
+            </div>
+            <div class="Contact_info_container">
+                <img src="./Assets/phone_icon.png"
+                 alt="phone_icon"
+                 class="icon contact_icon"
+                />
+                <p a href="">060 662 2269</p>
+            </div>
+            <div class="Contact_info_container">
+                <img src="./Assets/whatsapp-logo_icon.png"
+                 alt="whatsapp_icon"
+                 class="icon contact_icon"
+                />
+                <p a href="WhatsApp">060 662 2269</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav_links_container">
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>&copy; Copyright 2024 Philani Manana, All rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
