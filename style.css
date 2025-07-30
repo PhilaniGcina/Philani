@@ -46,7 +46,7 @@ html.dark .hamburger-icon span {
 .skills-marquee-container {
     display: flex; /* Ensure items are in a row */
     width: 200%; /* Make it wider than its parent to allow scrolling */
-    animation: scroll-skills 30s linear infinite; /* Adjust duration for speed */
+    animation: scroll-skills 10s linear infinite; /* Adjust duration for speed */
 }
 
 /* Pause animation on hover */
@@ -59,4 +59,25 @@ html.dark .hamburger-icon span {
     flex-shrink: 0; /* Prevent cards from shrinking */
     width: 180px; /* Fixed width for each card */
     margin-right: 1.5rem; /* Space between cards */
+}
+/* Custom CSS for brand colors */
+.fa-html5 { color: #E44D26; /* HTML5 Orange */ }
+.fa-css3-alt { color: #264DE4; /* CSS3 Blue */ }
+.fa-js { color: #F7DF1E; /* JavaScript Yellow */ }
+.fa-react { color: #61DAFB; /* React Blue */ }
+.fa-node-js { color: #339933; /* Node.js Green */ }
+.fa-git-alt { color: #F05033; /* Git Red */ }
+.fa-github { color: #181717; /* GitHub Black */ }
+.fa-python { color: #3776AB; /* Python Blue */ }
+.fa-database { color: #4479A1; /* Common SQL/DB blue */ }
+.fa-code { color: #007ACC; /* Visual Studio Code blue*/ }
+.fa-lightbulb { color: #FFD700; /* Gold/Yellow for problem solving */ }
+.fa-aws { color: #FF9900; /* AWS Orange */ }
+.fa-code-branch.vscode-color { color: #007ACC; /* VS Code Blue (using code-branch for now) */ }
+.fa-vscode { color: #007ACC; /* Visual Studio Code Blue */ }
+
+/* General icon sizing and spacing if not already handled by Tailwind */
+.skill-card i {
+    font-size: 3.5rem; /* Adjust as needed, equivalent to text-5xl or slightly larger */
+    margin-bottom: 0.5rem; /* Space between icon and text */
 }
